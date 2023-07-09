@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+<div class="exhibits">
+  <div class="grid">
+    {%- for exhibit in site.exhibits reversed -%}
+      <div class="grid-item-{{exhibit.width_type}} grid-item">
+        <a class="exhibit-link" href="{{ exhibit.url | relative_url }}">
+          <img class="exhibit-img"
+         {%- if exhibit.image_thumbnail -%}
+           src="{{ exhibit.image_thumbnail | relative_url }}"
+         {%- else -%}
+           src="/assets/images/gallery/thumbnails/{{ exhibit.path | split: "/" | last | split: "." | first }}.jpg"
+         {%- endif -%}
+         />
+        </a>
+      </div>
+    {%- endfor -%}
+  </div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
+<script src="/assets/scripts/masonry.pkgd.min.js"></script>
+<script>
+  // init Masonry
+  let $grid = $('.grid').masonry({
+    gutter: 5,
+    itemSelector: '.grid-item',
+    columnWidth: 360
+  });// layout Masonry after each image loads
+  $grid.imagesLoaded().progress( function() {
+    $grid.masonry('layout');
+  });
+</script>

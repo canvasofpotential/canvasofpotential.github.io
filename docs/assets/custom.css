@@ -1,0 +1,397 @@
+/* latin-ext */
+@font-face {
+    font-family: 'Unica One';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/unicaone/v13/DPEuYwWHyAYGVTSmalsRf93eiEY.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Unica One';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/unicaone/v13/DPEuYwWHyAYGVTSmalsRcd3e.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+/* cyrillic */
+@font-face {
+    font-family: 'Poiret One';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/poiretone/v14/UqyVK80NJXN4zfRgbdfbo5pcV_cx.woff2) format('woff2');
+    unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* latin-ext */
+@font-face {
+    font-family: 'Poiret One';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/poiretone/v14/UqyVK80NJXN4zfRgbdfbo5BcV_cx.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Poiret One';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/poiretone/v14/UqyVK80NJXN4zfRgbdfbo55cVw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'IM Fell DW Pica';
+    font-style: italic;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/imfelldwpica/v12/2sDEZGRQotv9nbn2qSl0TxXVYNwNZjnXli4.ttf) format('truetype')
+}
+
+@font-face {
+    font-family: 'IM Fell DW Pica';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/imfelldwpica/v12/2sDGZGRQotv9nbn2qSl0TxXVYNwNYwnQ.ttf) format('truetype')
+}
+
+@font-face {
+    font-family: fontello;
+    src: url(//cache.umusic.com/_sites/_asf/icons/font/fontello.eot?21517319);
+    src: url(//cache.umusic.com/_sites/_asf/icons/fontello.eot?21517319#iefix) format("embedded-opentype"), url(//cache.umusic.com/_sites/_asf/icons/font/fontello.woff?21517319) format("woff"), url(//cache.umusic.com/_sites/_asf/icons/font/fontello.ttf?21517319) format("truetype"), url(//cache.umusic.com/_sites/_asf/icons/font/fontello.svg?21517319#fontello) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: icon;
+    src: url(//cache.umusic.com/_assets/asf8/custom-icons/font/icon.eot?91630143);
+    src: url(//cache.umusic.com/_assets/asf8/custom-icons/font/icon.eot?91630143#iefix) format("embedded-opentype"), url(//cache.umusic.com/_assets/asf8/custom-icons/font/icon.woff2?91630143) format("woff2"), url(//cache.umusic.com/_assets/asf8/custom-icons/font/icon.woff?91630143) format("woff"), url(//cache.umusic.com/_assets/asf8/custom-icons/font/icon.ttf?91630143) format("truetype"), url(//cache.umusic.com/_assets/asf8/custom-icons/font/icon.svg?91630143#icon) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+
+.attack-footnote {
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    line-height:40px;
+    bottom: 0;
+    margin: auto;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #893dbb;
+    color: #D9DBF1;
+    font-family: 'Poiret One', sans-serif;
+}
+
+.attack-img {
+    max-width: 360px;
+    max-height: 360px;
+    border-radius: 15px;
+
+}
+
+.attack-frame {
+    max-width: 330px;
+    max-height: 330px;
+}
+
+.attack-list-item {
+    position: relative;
+    text-align: center;
+    border-radius: 15px;
+    background-color: rgb(0, 0, 0);
+
+}
+
+.attack-list {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    gap: 1rem;
+}
+
+@media (min-width: 720px) {
+    .attack-list {
+        grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    }
+}
+
+.grid-item {
+    /* this is for gallery */
+    margin-bottom: 10px;
+}
+
+.grid-item img {
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.579);
+
+}
+
+.grid-item-small {
+    width: 360px;
+}
+
+.grid-item-medium {
+    width: 360px;
+}
+
+.grid-item-large {
+    width: 360px;
+}
+
+#footer-description {
+    color: rgb(189, 189, 189);
+    text-align: center;
+}
+
+.page-link {
+    font-family: "Poiret One", sans-serif;
+}
+
+.site-title {
+    font-family: "Unica One", sans-serif;
+}
+
+.home-intro {
+    height: fit-content;
+    padding: 40px;
+    color: #ffffff;
+    background-color: #893dbb;
+    text-align: center;
+}
+
+#home-intro-header {
+    font-size: 600%;
+    font-family: "Unica One", sans-serif;
+    line-height: 100%;
+}
+
+#home-intro-text {
+    font-size: 150%;
+    font-family: "Poiret One", sans-serif;
+}
+
+.home-social-media {
+    background-color: #D9DBF1;
+    color: #41543C;
+    padding: 40px;
+}
+
+#home-sm-text {
+    font-size: 150%;
+    font-family: "Poiret One", sans-serif;
+}
+
+.home-link {
+    font-size: 200%;
+    font-family: "Poiret One", sans-serif;
+    margin: auto;
+    padding: 8px;
+    border-width: 2px;
+    border-color: #D9DBF1;
+    border-style: groove;
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+.home-link:hover {
+    background-color: #D9DBF1;
+    color: #41543C;
+    border-style: none;
+}
+
+
+#home-harper {
+    background-color: #61208d;
+}
+
+#home-blobbie {
+    background-color: #4a186e;
+}
+
+
+.home-characters {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+}
+
+
+@media (min-width: 800px) {
+  .home-characters {
+    display: grid;
+    grid-template-columns: 50% 50%;	
+  }      
+}
+
+.home-character {
+    text-align:center;
+    padding: 40px;
+}
+
+.home-img {
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+
+}
+
+/*
+.home-characters {
+    Width: 100%;
+}
+
+.home-character {
+    width: 100%;
+}
+
+@media (min-width: 48em) {
+    .home-character {
+        width: 50%;
+        float: left;
+    }
+
+    .home-characters {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+*/
+
+
+.home-link2 {
+    font-size: 150%;
+    font-family: "Poiret One", sans-serif;
+    padding: 8px;
+    border-width: 2px;
+    border-color: #D9DBF1;
+    border-style: groove;
+    color: #ffffff;
+    transition: 0.3s;
+    
+    position:absolute;
+    bottom: 60px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    right: auto;
+}
+
+.home-link2:hover {
+    background-color: #D9DBF1;
+    color: #41543C;
+    border-style: solid;
+}
+
+#footer-description {
+    font-family: "Poiret One", sans-serif;
+}
+
+.page-heading {
+    font-family:"Unica One", sans-serif;
+    font-size: 400%
+}
+
+.home-recent-arts {
+    background-color: #D9DBF1;
+}
+
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #D9DBF1;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #D9DBF1;
+  font-size: 50px;
+  font-family: "Poiret One";
+  padding-left: 50px;
+  padding-top: 30px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #61208d;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}

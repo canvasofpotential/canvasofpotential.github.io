@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<!--TO DO: this doesn't work, fix it-->
+
+<article class="exhibit h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="exhibit-header">
+    <h1 class="exhibit-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+    <p class="exhibit-meta">
+      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        {{ page.date | date: date_format }}
+      </time>
+    </p>
+
+    <img class="exhibit-img"
+      src="/assets/images/gallery/{{ page.path | split: "/" | last | split: "." | first }}.png"/>
+  </header>
+
+  <div class="exhibit-content e-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+  {%- if site.disqus.shortname -%}
+    {%- include disqus_comments.html -%}
+  {%- endif -%}
+
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+</article>

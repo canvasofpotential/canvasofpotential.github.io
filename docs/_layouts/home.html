@@ -1,0 +1,63 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  <div class="home-intro">
+    <p id="home-intro-header">Hey! I'm Snuggly.</p>
+    <p id="home-intro-text">(...Not literally snuggly, though.) I love digital art as well as irl art, and creative writing is also another hobby of mine!</p>
+    <a class="home-link" href="/about"> ABOUT ME </a>
+  </div>
+  <div class="home-characters">
+    <div class="home-character" id="home-harper" style="position: relative;">
+      <img class="home-img" src="/assets/images/home/thumbnails/harper.jpg">
+      <a class="home-link2" href="https://toyhou.se/16976151.harper"> HARPER'S TOYHOU.SE </a>
+    </div>
+    <div class="home-character" id="home-blobbie" style="position: relative;">
+      <img class="home-img" src="/assets/images/home/thumbnails/blobbie.jpg">
+      <a class="home-link2" href="https://toyhou.se/16543582.snuggly"> BLOBBIE'S TOYHOU.SE </a>
+    </div>
+  </div>
+
+  <div class="home-recent-arts">
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="/assets/images/home/blobbie.png" style="width:100%">
+        <div class="text">Caption Text</div>
+      </div>
+    
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="/assets/images/home/harper.png" style="width:100%">
+        <div class="text">Caption Two</div>
+      </div>
+    
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="/assets/images/home/blobbie.png" style="width:100%">
+        <div class="text">Caption Three</div>
+      </div>
+    
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+  </div>
+
+</div>
+
+
+<script src="/assets/scripts/home-slideshow.js"></script>
