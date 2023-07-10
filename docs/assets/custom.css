@@ -83,7 +83,7 @@
     margin: auto;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
-    background-color: #893dbb;
+    background-color: #7c6a87;
     color: #D9DBF1;
     font-family: 'Poiret One', sans-serif;
 }
@@ -157,12 +157,14 @@
     font-family: "Unica One", sans-serif;
 }
 
+
 .home-intro {
     height: fit-content;
     padding: 40px;
     color: #ffffff;
-    background-color: #893dbb;
+    background-color: #392f5a;
     text-align: center;
+    
 }
 
 #home-intro-header {
@@ -178,7 +180,7 @@
 
 .home-social-media {
     background-color: #D9DBF1;
-    color: #41543C;
+    color: #ffffff;
     padding: 40px;
 }
 
@@ -207,11 +209,11 @@
 
 
 #home-harper {
-    background-color: #61208d;
+    background-color: #e5ecf4;
 }
 
 #home-blobbie {
-    background-color: #4a186e;
+    background-color: #e5ecf4;
 }
 
 
@@ -382,7 +384,7 @@
 }
 
 .active, .dot:hover {
-  background-color: #61208d;
+  background-color: #ffffff;
 }
 
 /* Fading animation */

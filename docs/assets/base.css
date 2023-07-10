@@ -58,6 +58,7 @@ main {
     display: block;
     margin-top: 30px;
     /* Default value of `display` of `main` element is 'inline' in IE 11. */
+    background-color:#099
 }
 
 /** Images */
@@ -333,7 +334,7 @@ table td {
 /** Site footer */
 .site-footer {
     padding: 5px 0;
-    background-color:#41543C;
+    background-color:#ffffff;
 }
 
 .footer-heading {
