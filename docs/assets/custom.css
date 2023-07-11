@@ -200,7 +200,7 @@
 }
 
 #home-intro-header {
-    font-size: 600%;
+    font-size: 500%;
     font-family: "Ubuntu", sans-serif;
     line-height: 100%;
 }
@@ -259,17 +259,22 @@
 #home-column-text-top {
     font-family:"Ubuntu", sans-serif;
     font-size: 400%;
-    color: #ffb640
+    color: #ffb640;
+    margin: auto;
+
 }
 
 #home-column-text-bottom {
     font-family:"Montserrat", "Sans Serif";
     color:#ffffff;
     font-size: 150%;
+    margin: auto;
+
 }
 
 #home-column-left {
-    background-color:#392f5a
+    background-color:#392f5a;
+    padding: 2%;
 }
 
 #home-column-right {
