@@ -8,4 +8,3 @@ permalink: /news/
 
 layout: posts
 ---
-Nice to meet you!
