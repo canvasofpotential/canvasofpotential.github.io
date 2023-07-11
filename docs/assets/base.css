@@ -22,7 +22,7 @@ figure {
 /** Basic styling */
 body {
     font: 400 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Montserrat, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    color: #ffffff;
+    color: #e5ecf4;
     background-color: rgb(26, 36, 33);
     -webkit-text-size-adjust: 100%;
     -webkit-font-feature-settings: "kern" 1;
@@ -265,7 +265,7 @@ table td {
 .site-nav .page-link {
     color: #000000;
     line-height: 1.5;
-    border: #FF8811;
+    border: #ffb640;
     border-width: 2px;
     border-style: groove;
     padding: 5px
@@ -273,7 +273,7 @@ table td {
 
 .site-nav .page-link:hover {
     transition: 0.3s;
-    background-color: #FF8811;
+    background-color: #ffb640;
 }
 
 
