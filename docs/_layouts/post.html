@@ -1,43 +1,45 @@
 ---
 layout: default
 ---
-<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+<div class="wrapper">
+  <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header class="page-heading">
-    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
-    <p class="post-meta">
-      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        {{ page.date | date: date_format }}
-      </time>
-      {%- if page.author -%}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
-      {%- endif -%}</p>
-  </header>
+    <header class="page-heading">
+      <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+      <p class="post-meta">
+        <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+          {{ page.date | date: date_format }}
+        </time>
+        {%- if page.author -%}
+          • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
+        {%- endif -%}</p>
+    </header>
 
-  <div class="post-content e-content" itemprop="articleBody">
-    {{ content }}
-  </div>
+    <div class="post-content e-content" itemprop="articleBody">
+      {{ content }}
+    </div>
 
-  {%- if site.disqus.shortname -%}
-    {%- include disqus_comments.html -%}
-  {%- endif -%}
+    {%- if site.disqus.shortname -%}
+      {%- include disqus_comments.html -%}
+    {%- endif -%}
 
-  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
-</article>
+    <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+  </article>
 
-<script src="https://giscus.app/client.js"
-        data-repo="fastestsloth/blog-comments"
-        data-repo-id="R_kgDOHmd5ew"
-        data-category="Announcements"
-        data-category-id="DIC_kwDOHmd5e84CQBUa"
-        data-mapping="pathname"
-        data-reactions-enabled="1"
-        data-emit-metadata="1"
-        data-input-position="top"
-        data-theme="light"
-        data-lang="en"
-        data-loading="lazy"
-        crossorigin="anonymous"
-        async>
-</script>
+  <script src="https://giscus.app/client.js"
+          data-repo="fastestsloth/blog-comments"
+          data-repo-id="R_kgDOHmd5ew"
+          data-category="Announcements"
+          data-category-id="DIC_kwDOHmd5e84CQBUa"
+          data-mapping="pathname"
+          data-reactions-enabled="1"
+          data-emit-metadata="1"
+          data-input-position="top"
+          data-theme="light"
+          data-lang="en"
+          data-loading="lazy"
+          crossorigin="anonymous"
+          async>
+  </script>
+</div>
