@@ -21,7 +21,7 @@ figure {
 
 /** Basic styling */
 body {
-    font: 400 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font: 400 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Montserrat, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     color: #ffffff;
     background-color: rgb(26, 36, 33);
     -webkit-text-size-adjust: 100%;
@@ -58,7 +58,7 @@ main {
     display: block;
     margin-top: 30px;
     /* Default value of `display` of `main` element is 'inline' in IE 11. */
-    background-color:#099
+    background-color:#ffffff
 }
 
 /** Images */
@@ -227,7 +227,7 @@ table td {
 
 /** Site header */
 .site-header {
-    background-color:rgb(65, 84, 60);
+    background-color:#E5ECF4;
     min-height: 55.95px;
     width: 100%;
     position: fixed;
@@ -246,7 +246,7 @@ table td {
 
 .site-title,
 .site-title:visited {
-    color: #fff;
+    color: #000000;
 }
 
 .site-nav {
@@ -263,9 +263,19 @@ table td {
 }
 
 .site-nav .page-link {
-    color: #fff;
+    color: #000000;
     line-height: 1.5;
+    border: #FF8811;
+    border-width: 2px;
+    border-style: groove;
+    padding: 5px
 }
+
+.site-nav .page-link:hover {
+    transition: 0.3s;
+    background-color: #FF8811;
+}
+
 
 .site-nav .page-link:not(:last-child) {
     margin-right: 20px;
