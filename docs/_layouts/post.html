@@ -1,22 +1,24 @@
 ---
 layout: default
 ---
+<div class="post-intro">
+  <p id="post-intro-header"> {{ page.title | escape }}</p>
+</div>
 <div class="wrapper">
   <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
     <header class="page-heading">
-      <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
       <p class="post-meta">
-        <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        <time class="dt-published" id="post-content-date" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
           {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-          {{ page.date | date: date_format }}
+          {{ page.date | date: date_format }} <hr>
         </time>
         {%- if page.author -%}
           • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
         {%- endif -%}</p>
     </header>
 
-    <div class="post-content e-content" itemprop="articleBody">
+    <div class="post-content e-content" id="post-content-text" itemprop="articleBody">
       {{ content }}
     </div>
 

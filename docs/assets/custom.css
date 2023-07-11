@@ -164,7 +164,7 @@
 }
 
 .grid-item-small {
-    width: 360px;
+    width: 180px;
 }
 
 .grid-item-medium {
@@ -172,7 +172,7 @@
 }
 
 .grid-item-large {
-    width: 360px;
+    width: 540px;
 }
 
 #footer-description {
@@ -497,4 +497,38 @@
 
 #posts-heading-link {
     border-color:#ffb640;
+}
+
+.page-content {
+    font-family: "Montserrat", "Sans Serif";
+    font-size: 100%;
+    color: #392f5a;
+}
+
+#post-content-text {
+    font-family: "Montserrat", "Sans Serif";
+    font-size: 125%;
+    color: #392f5a;
+}
+
+#post-intro-header {
+    font-family: "Ubuntu", "Sans Serif";
+    font-size: 400%;
+    color: #ffffff;
+}
+
+#post-content-date {
+    font-family: "Montserrat", "Sans Serif";
+    font-size: 35%;
+    color: #392f5a;
+}
+
+.post-intro {
+    height: fit-content;
+    padding: 40px;
+    color: #ffffff;
+    /*background-color: #392f5a;*/
+    text-align: center;
+    background-color: #392f5a;
+    
 }
