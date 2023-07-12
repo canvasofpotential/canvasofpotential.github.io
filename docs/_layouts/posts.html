@@ -3,8 +3,8 @@ layout: default
 ---
 
 <div class="home-intro">
-  <p id="home-intro-header">News</p>
-  <a class="home-link" id="posts-heading-link" href="/about"> FEATURED ARTICLE (replace link)</a>
+  <p id="home-intro-header">Activities</p>
+  <!--<a class="home-link" id="posts-heading-link" href="/about"> FEATURED ARTICLE (replace link)</a>-->
 </div>
 
 
@@ -16,7 +16,6 @@ layout: default
     {{ content }}
 
     {%- if site.posts.size > 0 -%}
-      <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
       <ul class="post-list">
         {%- for post in site.posts -%}
         <li>
