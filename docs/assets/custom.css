@@ -274,7 +274,7 @@
 
 #home-column-left {
     background-color:#392f5a;
-    padding: 2%;
+    padding: 3%;
 }
 
 #home-column-right {
@@ -536,4 +536,28 @@
     text-align: center;
     background-color: #392f5a;
     
+}
+
+#about-column-text-top {
+    font-family:"Montserrat", sans-serif;
+    font-size: 300%;
+    color: #ffb640;
+    line-height: 125%;
+}
+
+#about-column-text-bottom {
+    font-family:"Montserrat", "Sans Serif";
+    color:#ffffff;
+    font-size: 150%;
+}
+
+.about-contact {
+    padding: 2%;
+    background-color: #e5ecf4;
+    font-size: 150%;
+}
+
+.about-people {
+    padding: 2%;
+    font-size: 150%;
 }
