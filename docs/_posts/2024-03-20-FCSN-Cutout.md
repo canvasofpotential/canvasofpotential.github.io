@@ -9,4 +9,4 @@ Our projects today were related to the theme of foam cutouts, where we create ar
 paper cutouts, paper strips, etc.
 
 Here are some images of our projects today:
-![image 1](../assets/images/gallery/thumbnails/2023-07-10-sunflower-1.jpg)
+[image 1](../assets/images/gallery/thumbnails/2023-07-10-sunflower-1.jpg)
