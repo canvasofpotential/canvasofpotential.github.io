@@ -17,8 +17,7 @@ layout: default
 
     {%- if site.posts.size > 0 -%}
       <ul class="post-list">
-        {%- assign sorted_posts = site.posts | sort: 'date' | reverse -%}
-        {%- for post in sorted_posts -%}
+        {%- for post in site.posts -%}
         <li>
           <div id="post-div">
             {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
@@ -31,7 +30,7 @@ layout: default
             {%- if site.show_excerpts -%}
               {{ post.excerpt }}
             {%- endif -%}
-          </div>
+        </div>
         </li>
         {%- endfor -%}
       </ul>

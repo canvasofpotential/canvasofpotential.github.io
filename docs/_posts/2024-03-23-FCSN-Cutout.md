@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "FCSN Foam Event"
-date:   2023-03-23 22:50:00 -0700
+date:   2024-03-23 22:50:00 -0700
 categories: jekyll update
 ---
 Today, volunteers from Canvas of Potential hosted another art event at FCSN.
