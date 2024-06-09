@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "FCSN Cutout Event"
+title:  "FCSN Foam Event"
 date:   2023-03-23 22:50:00 -0700
 categories: jekyll update
 ---
