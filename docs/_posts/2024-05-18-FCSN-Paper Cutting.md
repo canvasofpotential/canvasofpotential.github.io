@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "FCSN Cutout Event"
-date:   2023-03-23 22:50:00 -0700
+date:   2023-05-18 22:50:00 -0700
 categories: jekyll update
 ---
 In our final FCSN event of the Spring 2024 season, participants used construction and foam paper to create various patterns, including snowflakes, flowers, etc. Then, they proceeded to use foam to make a flower, along with a landscape framed as a photo.
