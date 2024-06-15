@@ -43,6 +43,27 @@ collections:
   exhibits:
     output: true
 
+sitetext:
+  team:
+    section: "team"
+    title: "Our Amazing Team"
+    text: "Meet our dedicated team members."
+    people:
+      - name: "John Doe"
+        role: "CEO"
+        image: "assets/images/gallery/thumbnails/2023-07-10-sunflower-1.jpg"
+        social:
+          - icon: "fab fa-twitter"
+            url: "https://twitter.com/johndoe"
+      - name: "Jane Smith"
+        role: "CTO"
+        image: "assets/images/gallery/thumbnails/2023-07-10-sunflower-2.jpg"
+        social:
+          - icon: "fab fa-linkedin"
+            url: "https://linkedin.com/in/janesmith"
+    subtext: "We are a team of passionate professionals."
+
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
