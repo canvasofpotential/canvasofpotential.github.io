@@ -45,23 +45,21 @@ collections:
 
 sitetext:
   team:
-    section: "team"
-    title: "Our Amazing Team"
-    text: "Meet our dedicated team members."
+    title: "OUR AMAZING TEAM"
+    text: "Lorem ipsum dolor sit amet consectetur."
+    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    section: team
     people:
-      - name: "John Doe"
-        role: "CEO"
-        image: "assets/images/gallery/thumbnails/2023-07-10-sunflower-1.jpg"
+      - name: "Zixuan Yin"
+        role: "Vice President"
+        image: assets/images/home/artwork/RGB-BUNNY_FCSN.JPG
         social:
-          - icon: "fab fa-twitter"
-            url: "https://twitter.com/johndoe"
-      - name: "Jane Smith"
-        role: "CTO"
-        image: "assets/images/gallery/thumbnails/2023-07-10-sunflower-2.jpg"
-        social:
-          - icon: "fab fa-linkedin"
-            url: "https://linkedin.com/in/janesmith"
-    subtext: "We are a team of passionate professionals."
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
 
 
 # Exclude from processing.
