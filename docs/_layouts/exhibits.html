@@ -14,11 +14,11 @@ layout: default
         <div class="grid-item-{{exhibit.width_type}} grid-item">
           <a class="exhibit-link" href="{{ exhibit.url | relative_url }}">
             <img class="exhibit-img"
-          {%- if exhibit.image_thumbnail -%}
+          {% if exhibit.image_thumbnail %}
             src="{{ exhibit.image_thumbnail | relative_url }}"
-          {%- else -%}
-            src="/assets/images/gallery/thumbnails/{{ exhibit.path | split: "/" | last | split: "." | first }}.jpg"
-          {%- endif -%}
+          {% else %}
+            src="/assets/images/gallery/photos/{{ exhibit.path | split: '/' | last | split: '.' | first }}.jpg"
+          {% endif %}
           />
           </a>
         </div>
